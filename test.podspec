@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Test"
+s.source_files  = "Test/DetailViewController.{h,m}"
 
   s.requires_arc = true
 
