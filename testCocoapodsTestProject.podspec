@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "testCocoapodsTestProject"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "testCocoapodsTestProject"
   s.homepage     = "https://github.com/zhangyapeng01/testCocoapodsTestProject.git"
 
