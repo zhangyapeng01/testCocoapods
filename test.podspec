@@ -14,15 +14,7 @@ Pod::Spec.new do |s|
 
   s.source = { :git => "https://github.com/zhangyapeng01/testCocoapodsTestProject.git", :tag => "#{s.version}" }
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  s.source_files  = "test","test/Masonry/*.{h,m}"
+  s.source_files  = "testCocoapodsTestProject/test/**/*.{h,m}"
 
   s.requires_arc = true
 
