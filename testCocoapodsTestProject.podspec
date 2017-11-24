@@ -2,9 +2,9 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "test"
+  s.name         = "testCocoapodsTestProject"
   s.version      = "0.0.1"
-  s.summary      = "test 私有pod测试项目"
+  s.summary      = "testCocoapodsTestProject"
   s.homepage     = "https://github.com/zhangyapeng01/testCocoapodsTestProject.git"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.source = { :git => "https://github.com/zhangyapeng01/testCocoapodsTestProject.git", :tag => "#{s.version}" }
 
-  s.source_files  = "testCocoapodsTestProject/test/**/*.{h,m}"
+  s.source_files  = "test/**/*.{h,m}"
 
   s.requires_arc = true
 
